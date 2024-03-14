@@ -17,8 +17,7 @@ int main(){
 
     printf("Insira o num2:\n");
     scanf("%d", &num2);
-
-
+    
     //soma
     resultado = num1 + num2;
     printf("A soma dos dois numeros e %d.\n", resultado);//cast - conversao de somente uma variavel sem ter que mexer em todo o codigo
@@ -35,7 +34,7 @@ int main(){
     res = (float)num1 / (float)num2;
     printf("A divisao e %.2f.\n", res);
 
-    //quadradp
+    //quadrado
     resultado = num1 * num1;
     printf("O quadrado e %d.\n", resultado);//cast - conversao de somente uma variavel sem ter que mexer em todo o codigo
 
